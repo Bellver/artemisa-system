@@ -14,14 +14,14 @@
 			submitSuccess: function($form, event) {
 				event.preventDefault();
 
-				var submit          = $('#contact-form submit');
-				var ajaxResponse    = $('#contact-response');
+				var submit = $('#contact-form submit');
+				var ajaxResponse = $('#contact-response');
 
-				var name            = $("input#cname").val();
-				var email           = $("input#cemail").val();
-				var phone           = $("input#cphone").val();
-				var city           = $("input#ccity").val();
-				var message         = $("textarea#cmessage").val();
+				var name = $("input#cname").val();
+				var email = $("input#cemail").val();
+				var phone = $("input#cphone").val();
+				var city = $("input#ccity").val();
+				var message = $("textarea#cmessage").val();
 
 				$.ajax({
 					type: 'POST',
