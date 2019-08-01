@@ -19,8 +19,8 @@
 
 				var name            = $("input#cname").val();
 				var email           = $("input#cemail").val();
-				var email           = $("input#cphone").val();
-				var email           = $("input#ccity").val();
+				var phone           = $("input#cphone").val();
+				var city           = $("input#ccity").val();
 				var message         = $("textarea#cmessage").val();
 
 				$.ajax({
