@@ -19,6 +19,8 @@
 
 				var name            = $("input#cname").val();
 				var email           = $("input#cemail").val();
+				var email           = $("input#cphone").val();
+				var email           = $("input#ccity").val();
 				var message         = $("textarea#cmessage").val();
 
 				$.ajax({
@@ -28,6 +30,8 @@
 					data: {
 						name: name,
 						email: email,
+						phone: phone,
+						city: city,
 						message: message,
 					},
 					cache: false,

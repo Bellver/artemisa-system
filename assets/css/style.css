@@ -22,7 +22,7 @@ html {
 
 body {
 	background: #fff;
-	font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
+	font: 400 15px/1.8 "Open Sans", Verdana, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 }
@@ -104,10 +104,10 @@ a,
 .panel-group .panel,
 .nav-tabs > li > a,
 .nav-pills > li > a {
-	-webkit-border-radius: 2px;
-	   -moz-border-radius: 2px;
-		 -o-border-radius: 2px;
-			border-radius: 2px;
+	-webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+		 -o-border-radius: 8px;
+			border-radius: 8px;
 }
 
 /* Reset box-shadow */
@@ -136,9 +136,9 @@ Form styles
 	font-size: 11px;
 	height: 33px;
 	border: 1px solid #b2b2b2;
-	-webkit-border-radius: 2px;
-	   -moz-border-radius: 2px;
-	        border-radius: 2px;
+	-webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+	        border-radius: 8px;
 }
 
 .form-control:focus {
@@ -180,9 +180,9 @@ Button styles
 }
 
 .btn.btn-round {
-	-webkit-border-radius: 2px;
-	   -moz-border-radius: 2px;
-	        border-radius: 2px;
+	-webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+	        border-radius: 8px;
 }
 
 .btn.btn-circle {
@@ -196,7 +196,7 @@ Button styles
 .btn.btn-g {
 	background: transparent;
 	border: 1px solid #0292d5;
-	color: #666;
+	color: #0292d5;
 }
 
 .btn.btn-g:hover,
@@ -533,6 +533,11 @@ blockquote {
 	text-shadow: none !important;
 }
 
+.small {
+	font-size: 12px;
+	font-style: italic;
+}
+
 /* ------------------------------------------------------------------
 Navbar
 ------------------------------------------------------------------- */
@@ -744,7 +749,7 @@ Sections
 
 .module-subtitle {
 	margin-bottom: 70px;
-	font-size: 12px;
+	font-size: 16px;
 	color: #0292d5;
 }
 
