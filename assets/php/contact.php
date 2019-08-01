@@ -1,7 +1,7 @@
 <?php
 
 	// Mail settings
-	$to = "comercial@lynxview.es, contacto@sistemaartemisa.com";
+	$to = "comercial@lynxview.es, hola@pablobellver.com,";
 	$subject = "Sistema Artemisa contact form";
 
 	if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
